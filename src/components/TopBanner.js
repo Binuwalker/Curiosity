@@ -1,9 +1,13 @@
 import React from 'react';
 import { Container } from 'react-bootstrap';
 import { IoLogoYoutube } from 'react-icons/io';
+import { useNavigate } from 'react-router';
 import '../styles/Home.css'
 
 const TopBanner = () => {
+
+    const navigate = useNavigate('')
+
     return (
         <div className='topBanner'>
             <Container className='banner'>
@@ -11,7 +15,7 @@ const TopBanner = () => {
                     <h1 className='banner-heading-style'>We Make Unique Trips All Over Europe and Asia.</h1>
                 </div>
                 <div className='banner-paragraph'>
-                    <p className='banner-paragraph-style'><IoLogoYoutube className='banner-paragraph-icon' /> #_CURIOSITY</p>
+                    <p className='banner-paragraph-style'><IoLogoYoutube className='banner-paragraph-icon' onClick={() => navigate('')}/> #_CURIOSITY</p>
                 </div>
                 <button className='banner-btn-1'>Make a Trip</button>
                 <button className='banner-btn-2'>Pricing</button>

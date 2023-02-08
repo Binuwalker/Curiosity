@@ -1,0 +1,140 @@
+.profile {
+    margin-top: 100px;
+    background-image: url(/public/img/profile-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 1px 1px 10px 4px rgb(137, 136, 136);
+}
+
+.user-profile {
+    height: 500px;
+    width: 100%;
+}
+
+.profile-img {
+    height: 500px;
+    width: 20%;
+    float: left;
+}
+
+.profile-img-style {
+    height: 200px;
+    width: 80%;
+    margin-top: 10px;
+    border-radius: 30%;
+}
+
+.user-name {
+    margin-top: 20px;
+    margin-left: 25px;
+    color: #ffffff;
+    cursor: default;
+}
+
+.user-role {
+    margin-left: 25px;
+    color: rgb(161, 161, 161);
+    cursor: default;
+}
+
+.profile-setting-btn {
+    height: 43px;
+    width: 80%;
+    float: left;
+    margin-top: 10px;
+}
+
+.edit-profile-logout-dummy {
+    height: 43px;
+    width: 58%;
+    float: left;
+}
+
+.edit-profile {
+    height: 43px;
+    width: 20%;
+    margin-left: 10px;
+    float: left;
+}
+
+.logout {
+    height: 43px;
+    width: 20%;
+    margin-left: 10px;
+    float: left;
+}
+
+.edit-profile-btn {
+    height: 43px;
+    width: 100%;
+    color: white;
+    background-color: transparent;
+    font-weight: 650;
+    border: 2px solid rgb(155, 202, 234);
+    border-radius: 20px 20px 20px 20px;
+}
+
+.edit-profile-btn:hover {
+    background-color: rgba(95, 91, 91, 0.951);
+}
+
+.logout-btn {
+    height: 43px;
+    width: 100%;
+    background-color: rgb(155, 202, 234);
+    font-weight: 650;
+    border: 1px solid rgb(44, 145, 222);
+    border-radius: 20px 20px 20px 20px;
+}
+
+.logout-btn:hover {
+    color: #ffffff;
+    background-color: rgba(95, 91, 91, 0.951);
+    border: 2px solid rgb(155, 202, 234);
+}
+
+/* History */
+
+.profile-history {
+    width: 80%;
+    margin-top: 10px;
+    border-radius: 10px 10px 10px 10px;
+    float: left;
+}
+
+.user-history {
+    width: 33%;
+    margin-top: 20px;
+    color: #ffffff;
+}
+
+.user-history:hover {
+    color: #b7b5b5;
+}
+
+.user-history-txt-none {
+    width: 32%;
+    margin-left: 25px;
+    display: block;
+    text-decoration: none;
+}
+
+.history {
+    height: 427px;
+    width: 100%;
+    background-color: rgb(232, 228, 228);
+    border-radius: 10px 10px 10px 10px;
+}
+
+.user-history-none {
+    position: relative;
+    top: 170px;
+    color: rgb(193, 192, 192);
+    cursor: default;
+    font-size: 40px;
+    font-weight: 620;
+    display: flex;
+    justify-content: center;
+}

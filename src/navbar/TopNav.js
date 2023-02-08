@@ -1,34 +1,51 @@
-import React from 'react';
-import { Container } from 'react-bootstrap';
+import React, { useContext } from 'react';
+import { Container, Navbar, Nav } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import './Nav.css';
+import { AppContext } from '../App';
 
 const TopNav = () => {
+
+  const { loginSuccess } = useContext(AppContext);
+
   return (
-    <div className='topNav'>
+    <Navbar className='nav-bg fixed-top' expand="lg">
       <Container>
-        <div className='navLogo'>
-          <p className='navLogo-style'>Curiosity</p>
-        </div>
-        <ul className='navLinks'>
-          <li className='navLink'>
-            <Link to={'/'} className='navLink-style'><p className='navLink-style'>Home</p></Link>
-          </li>
-          <li className='navLink'>
-            <Link to={'/about'} className='navLink-style'><p className='navLink-style'>About</p></Link>
-          </li>
-          <li className='navLink'>
-            <Link to={'/services'} className='navLink-style'><p className='navLink-style'>Services</p></Link>
-          </li>
-          <li className='navLink'>
-            <Link to={'/login'} className='navLink-style'><p className='navLink-style'>Login</p></Link>
-          </li>
-        </ul>
-        <button className='navBtn'>
-          <p className='navBtn-style'>Register Now</p>
-        </button>
+        <Link>
+          <img src='/img/curiosity-logo.jpg' alt='curiosity-logo' className='nav-logo' />
+        </Link>
+        <Navbar.Toggle aria-controls="navbar-nav" />
+        <Navbar.Collapse id="navbar-nav">
+          <Nav className="ms-auto nav-links">
+            <Link to={'/'} className='nav-link nav-link-style'>Home</Link>
+            <Link to={'/about'} className='nav-link nav-link-style'>About</Link>
+            <Link to={'/services'} className='nav-link nav-link-style'>Services</Link>
+            {loginSuccess ? (
+              <li className='navLink'>
+                <Link to={'/profile'} className='nav-link nav-link-style'>Profile</Link>
+              </li>
+            ) : (
+              <li className='navLink'>
+                <Link to={'/login'} className='nav-link nav-link-style'>Login</Link>
+              </li>
+            )}
+            {loginSuccess ? (
+              <Link to={'/booknow'} >
+                <button className='nav-btn'>
+                  booknow
+                </button>
+              </Link>
+            ) : (
+              <Link to={'/login'}>
+                <button className='nav-btn'>
+                  Book Now
+                </button>
+              </Link>
+            )}
+          </Nav>
+        </Navbar.Collapse>
       </Container>
-    </div>
+    </Navbar>
   )
 }
 

@@ -1,0 +1,243 @@
+.bookNow {
+    background-image: url(/public/img/booknow-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh;
+    /* opacity: .6; */
+}
+
+.bookNow-form {
+    position: relative;
+    top: 200px;
+}
+
+.bookNow-dummy {
+    height: 10px;
+    width: 5%;
+    float: left;
+}
+
+.bookNow-validation {
+    width: 30%;
+    float: left;
+    background-color: rgb(236, 251, 247);
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 1px 1px 6px 1px rgb(69, 69, 69);
+}
+
+.bookNow-destination {
+    width: 100%;
+    margin-top: 30px;
+}
+
+.bookNow-destination-label {
+    color: rgb(4, 40, 29);
+    font-weight: 680;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.bookNow-destination-input {
+    height: 35px;
+    width: 100%;
+    margin-top: 10px;
+    /* background-color: rgb(183, 219, 208); */
+    background-color: rgb(183, 219, 208);
+    border: 2px solid rgb(145, 191, 180);
+    border-radius: 3px 3px 3px 3px;
+    outline: none;
+}
+
+.bookNow-checkIn {
+    width: 48%;
+    margin-top: 20px;
+    float: left;
+}
+
+.bookNow-checkIn-label {
+    color: rgb(4, 40, 29);
+    font-size: 15px;
+    font-weight: 680;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.bookNow-checkIn-input {
+    height: 35px;
+    width: 100%;
+    margin-top: 10px;
+    background-color: rgb(183, 219, 208);
+    border: 2px solid rgb(145, 191, 180);
+    border-radius: 3px 3px 3px 3px;
+    outline: none;
+}
+
+.bookNow-checkOut {
+    width: 48%;
+    margin-top: 20px;
+    margin-left: 4%;
+    float: left;
+}
+
+.bookNow-checkOut-label {
+    color: rgb(4, 40, 29);
+    font-size: 15px;
+    font-weight: 680;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.bookNow-checkOut-input {
+    height: 35px;
+    width: 100%;
+    margin-top: 10px;
+    background-color: rgb(183, 219, 208);
+    border: 2px solid rgb(145, 191, 180);
+    border-radius: 3px 3px 3px 3px;
+    outline: none;
+}
+
+.bookNow-rooms {
+    width: 31%;
+    margin-top: 20px;
+    float: left;
+}
+
+.bookNow-rooms-label {
+
+    color: rgb(4, 40, 29);
+    font-size: 15px;
+    font-weight: 680;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.bookNow-rooms-input {
+    height: 35px;
+    width: 100%;
+    margin-top: 10px;
+    background-color: rgb(183, 219, 208);
+    border: 2px solid rgb(145, 191, 180);
+    border-radius: 3px 3px 3px 3px;
+    outline: none;
+}
+
+.bookNow-adults {
+    width: 31%;
+    margin-top: 20px;
+    margin-left: 3.5%;
+    float: left;
+}
+
+.bookNow-adults-label {
+
+    color: rgb(4, 40, 29);
+    font-size: 15px;
+    font-weight: 680;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.bookNow-adults-input {
+    height: 35px;
+    width: 100%;
+    margin-top: 10px;
+    background-color: rgb(183, 219, 208);
+    border: 2px solid rgb(145, 191, 180);
+    border-radius: 3px 3px 3px 3px;
+    outline: none;
+}
+
+.bookNow-children {
+    width: 31%;
+    margin-top: 20px;
+    margin-left: 3.5%;
+    float: left;
+}
+
+.bookNow-children-label {
+    color: rgb(4, 40, 29);
+    font-size: 15px;
+    font-weight: 680;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-ser;
+}
+
+.bookNow-children-input {
+    height: 35px;
+    width: 100%;
+    margin-top: 10px;
+    background-color: rgb(183, 219, 208);
+    border: 2px solid rgb(145, 191, 180);
+    border-radius: 3px 3px 3px 3px;
+    outline: none;
+}
+
+.bookNow-checkAvail-btn {
+    height: 40px;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    color: rgb(236, 251, 247);
+    background-color: rgb(46, 181, 147);
+    font-size: 17px;
+    border-radius: 5px 5px 5px 5px;
+    border: 2px solid rgb(18, 102, 68);
+    transition: 1s;
+}
+
+.bookNow-checkAvail-btn:hover {
+    background-color: rgb(33, 129, 105);
+}
+
+.bookNow-right {
+    height: 385px;
+    width: 65%;
+    float: left;
+}
+
+.bookNow-quotes {
+    margin-top: 50px;
+    display: block;
+}
+
+.bookNow-reserve-quotes {
+    color: rgb(4, 40, 29);
+    font-size: 52px;
+    font-family: 'Times New Roman', Times, serif;
+    cursor: default;
+}
+
+.bookNow-paragraph-quotes {
+    color: rgb(211, 252, 242);
+    font-size: 25px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    cursor: default;
+}
+
+@media screen and (max-width: 576px) {
+
+    .bookNow-validation {
+        width: 90%;
+    }
+
+    .bookNow-right {
+        width: 5%;
+    }
+
+    .bookNow-quotes {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 450px) {
+
+    .bookNow-validation {
+        width: 90%;
+    }
+
+    .bookNow-right {
+        width: 5%;
+    }
+
+    .bookNow-quotes {
+        display: none;
+    }
+
+}
